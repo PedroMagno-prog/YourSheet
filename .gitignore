@@ -1,0 +1,47 @@
+# Arquivos de Cache e Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambiente Virtual
+venv/
+env/
+virtualenv/
+.venv/
+.env
+deploy_env/
+
+# Arquivos de Banco de Dados
+*.sqlite3
+db.sqlite3
+
+# Arquivos de Mídia e Estáticos (gerados pelo usuário)
+/media/
+/static_root/
+
+# Arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDEs (como o PyCharm)
+.idea/
+
+# Arquivos de dependências do Python
+pip-wheel-metadata/
+.eggs/
+*.egg-info/
+*.egg
+
+# Arquivos de Log e Cobertura de Testes
+*.log
+.coverage
+htmlcov/
+
+#External Libraries
+Ex
+
+build/
+dist/
+main.spec
+rpg_data.json
