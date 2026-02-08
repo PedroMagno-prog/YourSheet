@@ -27,6 +27,7 @@ The `DiceEngine` class handles the probability complexity. Here is how it proces
 
 
 # From dice_engine.py
+```python
 def apply_custom_rules(self, rolagens: list, sides: int, active_rules: list):
     """
     Iterates through dice results to apply logic gates (Reroll, Explode, Add).
