@@ -62,10 +62,4 @@ python main.py
 
 [ ] Export characters to PDF.
 
-Created by [Seu Nome] - A Developer & Dungeon Master passionate about system design.
-
-
-### O que este README destaca (Baseado nos seus arquivos):
-1.  **Regex e Parsing:** Mostra que você sabe manipular strings complexas (`re.split`, `re.search`) e não apenas `random.randint`.
-2.  **Arquitetura JSON:** Enfatiza que você pensa em *dados* estruturados.
-3.  **Lógica de Negócios:** A menção ao `Flet` e à estrutura de classes (`RPGApp`, `DiceEngine`) mostra organização de código.
+Created by Pedro Magno - A Developer & Dungeon Master.
