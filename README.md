@@ -25,7 +25,7 @@ The core differentiator of this project is the **Trigger & Effect System**. Rule
 
 The `DiceEngine` class handles the probability complexity. Here is how it processes custom rules before the final output:
 
-```python
+
 # From dice_engine.py
 def apply_custom_rules(self, rolagens: list, sides: int, active_rules: list):
     """
@@ -41,3 +41,33 @@ def apply_custom_rules(self, rolagens: list, sides: int, active_rules: list):
              # Adds new dice to the pool recursively
             extra = self._roll_single_die(sides)
             bonus_total += extra
+
+How to Run
+Clone the repository
+
+Bash
+git clone https://github.com/PedroMagno-prog/YourSheet.git
+Install dependencies
+
+Bash
+pip install flet
+Run the App
+
+Bash
+python main.py
+🔮 Future Roadmap
+[ ] Implement Lagrange Interpolation for difficulty scaling (from my "The Tower" project).
+
+[ ] Add cloud sync for multiplayer sessions.
+
+[ ] Export characters to PDF.
+
+Created by [Seu Nome] - A Developer & Dungeon Master passionate about system design.
+
+
+### O que este README destaca (Baseado nos seus arquivos):
+1.  **Regex e Parsing:** Mostra que você sabe manipular strings complexas (`re.split`, `re.search`) e não apenas `random.randint`.
+2.  **Arquitetura JSON:** Enfatiza que você pensa em *dados* estruturados.
+3.  **Lógica de Negócios:** A menção ao `Flet` e à estrutura de classes (`RPGApp`, `DiceEngine`) mostra organização de código.
+
+**Dica Extra:** Se puder, tire um *screenshot* da tela do aplicativo rodando (com o menu de regras aberto) e coloque logo abaixo do título no GitHub. Imagens aumentam muito o interesse visual.
