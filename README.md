@@ -69,5 +69,3 @@ Created by [Seu Nome] - A Developer & Dungeon Master passionate about system des
 1.  **Regex e Parsing:** Mostra que você sabe manipular strings complexas (`re.split`, `re.search`) e não apenas `random.randint`.
 2.  **Arquitetura JSON:** Enfatiza que você pensa em *dados* estruturados.
 3.  **Lógica de Negócios:** A menção ao `Flet` e à estrutura de classes (`RPGApp`, `DiceEngine`) mostra organização de código.
-
-**Dica Extra:** Se puder, tire um *screenshot* da tela do aplicativo rodando (com o menu de regras aberto) e coloque logo abaixo do título no GitHub. Imagens aumentam muito o interesse visual.
