@@ -56,11 +56,11 @@ Run the App
 
 Bash
 python main.py
+```
 🔮 Future Roadmap
-[ ] Implement Lagrange Interpolation for difficulty scaling (from my "The Tower" project).
 
 [ ] Add cloud sync for multiplayer sessions.
 
 [ ] Export characters to PDF.
 
-Created by Pedro Magno - A Developer & Dungeon Master.
+Created by Pedro Magno - Developer & Dungeon Master.
